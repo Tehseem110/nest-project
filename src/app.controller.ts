@@ -13,4 +13,8 @@ export class AppController {
   getBackend(): string {
     return this.appService.getHello();
   }
+  @Get()
+  getBacked(): string {
+    return this.appService.getHello();
+  }
 }
